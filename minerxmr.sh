@@ -5,7 +5,7 @@ else
 apt-get update -y
 git --version || apt-get install git -y
 git clone https://github.com/ogibtc/miner-monero.git
-cd cpuminer-multi
+cd miner-monero
 apt-get install autoconf -y
 apt-get install libcurl4-openssl-dev -y
 apt-get install libjansson-dev -y
